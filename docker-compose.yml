@@ -25,3 +25,7 @@ services:
     build: ./front-end
     volumes:
       - build_react:/var/www/html
+
+volumes:
+  pg_drivenops-db:
+  build_react:
